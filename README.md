@@ -2,10 +2,11 @@
 23.06.2020
 
 ### Project Title
-GitHub Project 
+GitHub Project
 
 ### Description
-Describe what your project is about and what it does
+Refactor the BikeShare project using Git and GitHub and improve the documentation of the project
+bikeshare.py program/project explores the US bikeshare data to understand better
 
 ### Files used
 Include the files used
