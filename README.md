@@ -9,7 +9,12 @@ Refactor the BikeShare project using Git and GitHub and improve the documentatio
 bikeshare.py program/project explores the US bikeshare data to understand better
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+washington.csv
+new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Links
+Repo https://github.com/udacity/pdsnd_github
+Google Search https://www.google.com.tr/
