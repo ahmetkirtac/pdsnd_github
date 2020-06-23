@@ -94,7 +94,7 @@ def get_filters():
 
     print('-'*40)
     return city,month,day
-                
+
 
 def load_data(city, month, day):
 
@@ -239,7 +239,7 @@ def five_raws(df):
     print(df.head())
     next = 0
     while True:
-        view_raw_data = input('\nWould you like to view next five row of raw data? Enter yes or no.\n')
+        view_raw_data = input('\nWould you like to view next five row of raw data? Enter yes - no.\n')
         if view_raw_data.lower() != 'yes':
             return
         next = next + 5
@@ -255,14 +255,14 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
         while True:
-            view_raw_data = input('\nWould you like to view first five row of raw data? Enter yes or no.\n')
+            view_raw_data = input('\nWould you like to view first five row of raw data? Enter yes - no.\n')
             if view_raw_data.lower() != 'yes':
                 break
             five_raws(df)
             break
 
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart? Enter yes - no.\n')
         if restart.lower() != 'yes':
             break
 
